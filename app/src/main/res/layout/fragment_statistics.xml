@@ -1,0 +1,119 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.englishalternative.mystudents.fragments.StatisticsFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_spacing_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stats_start_date"
+            android:textSize="@dimen/large_text_size"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button_border"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stats_end_date"
+            android:textSize="@dimen/large_text_size"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_border"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_spacing_vertical"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+
+        android:gravity="center_horizontal"
+        android:id="@+id/stats_selected_students"
+        android:textSize="@dimen/large_text_size"
+        android:background="@drawable/button_border"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+        android:layout_marginTop="@dimen/list_spacing_vertical"
+        android:id="@+id/stats_time"
+        android:orientation="vertical"
+        android:background="@drawable/button_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/time"
+            android:gravity="top"
+            android:textStyle="normal"
+            android:textSize="@dimen/small_text_size"
+            android:layout_marginStart="@dimen/list_hint_margin" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="fill_vertical"
+            android:id="@+id/stats_time_text"
+            android:textSize="@dimen/large_text_size"
+            android:layout_marginStart="@dimen/list_main_element_margin"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+        android:layout_marginTop="@dimen/list_spacing_vertical"
+        android:id="@+id/stats_money"
+        android:orientation="vertical"
+        android:background="@drawable/button_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/money"
+            android:gravity="top"
+            android:textStyle="normal"
+            android:textSize="@dimen/small_text_size"
+            android:layout_marginStart="@dimen/list_hint_margin" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="fill_vertical"
+            android:id="@+id/stats_money_text"
+            android:textSize="@dimen/large_text_size"
+            android:layout_marginStart="@dimen/list_main_element_margin"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+        android:layout_marginTop="@dimen/list_spacing_vertical"
+        android:id="@+id/stats_unpaid"
+        android:orientation="vertical"
+        android:background="@drawable/button_border">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/stats_unpaid_text"
+            android:textSize="@dimen/large_text_size"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

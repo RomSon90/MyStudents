@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+
+        <ImageView
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandable_indicator"
+            android:visibility="invisible" />
+    
+        <TextView
+            android:layout_marginStart="@dimen/list_main_element_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandable_student_name"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/expandable_name_size"
+            android:layout_alignParentStart="true"/>
+        
+        <TextView
+            android:layout_marginStart="@dimen/list_main_element_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandable_student_place"
+            android:textSize="@dimen/small_text_size"
+            android:textColor="@color/dark_grey"
+            android:layout_below="@id/expandable_student_name"/>
+
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/expandable_add_lesson"
+            android:src="@drawable/ic_add_lesson_white"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:tint="@color/holo_light_primary"/>
+
+    <TextView
+        android:id="@+id/expandable_add_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/large_text_size"
+        android:visibility="invisible"
+        android:textColor="@color/green"
+        android:text="@string/add_student"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

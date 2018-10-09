@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/choice_bar"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/students_button"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/medium_text_size"
+            android:text="@string/student"
+            android:background="@drawable/button_border"
+            android:gravity="center"
+/>
+
+
+        <TextView
+            android:id="@+id/classes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/medium_text_size"
+            android:text="@string/class_student"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/button_border"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/places_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/medium_text_size"
+            android:text="@string/place_student"
+            android:background="@drawable/button_border"
+            android:layout_marginStart="4dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/choice_bar"
+        android:choiceMode="multipleChoice"
+        android:id="@+id/student_picker">
+
+    </ListView>
+</RelativeLayout>

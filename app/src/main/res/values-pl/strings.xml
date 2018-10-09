@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Students</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="add_student">Dodaj ucznia</string>
+    <string name="class_student">Klasa</string>
+    <string name="class_student_hint">Klasa ucznia</string>
+    <string name="date_lesson">Data</string>
+    <string name="date_lesson_button">Data i czas</string>
+    <string name="day_student">Dni</string>
+    <string name="delete">Usuń</string>
+    <string name="duration">Długość</string>
+    <string name="hint1">Żeby dodać ucznia</string>
+    <string name="hint1a">Naciśnij ikonę na pasku</string>
+    <string name="hint2">Naciśnij + żeby dodać lekcję</string>
+    <string name="hint3">Przytrzymaj by edytować</string>
+    <string name="homework_done_lesson">Zadanie odrobione ?</string>
+    <string name="homework_lesson">Zadanie</string>
+    <string name="homework_lesson_hint">Dodaj zadanie</string>
+    <string name="hour">Godziny</string>
+    <string name="lesson_missing_error">Brak lekcji</string>
+    <string name="message_lesson_added">Lekcja dodana</string>
+    <string name="message_lesson_deleted">Lekcja usunięta</string>
+    <string name="message_lesson_updated">Lekcja uaktualniona</string>
+    <string name="message_student_added">Uczeń dodany</string>
+    <string name="message_student_deleted">Uczeń usunięty</string>
+    <string name="message_student_unavailable">Brak ucznia</string>
+    <string name="message_student_updated">Uczeń uaktualniony</string>
+    <string name="minute">Minuty</string>
+    <string name="name_required">Wymagane imię</string>
+    <string name="name_student">Imię</string>
+    <string name="name_student_hint">Imię ucznia</string>
+    <string name="paid_lesson">Zapłacone</string>
+    <string name="place_required">Wymagane miejsce</string>
+    <string name="place_student">Miejsce</string>
+    <string name="place_student_hint">Miejsce nauki</string>
+    <string name="price_lesson">Cena</string>
+    <string name="save">Zapisz</string>
+    <string name="select_day">Wybierz dni</string>
+    <string name="student">Uczeń</string>
+    <string name="topic_lesson">Temat</string>
+    <string name="topic_lesson_hint">Dodaj temat</string>
+
+    <string name="new_lesson">Nowa lekcja</string>
+    <string name="lesson_details">Lekcja</string>
+    <string name="new_student"> Nowy uczeń</string>
+    <string name="student_details">Uczeń</string>
+
+    <string name="all_paid">Wszystko zapłacone</string>
+
+    <string-array name="days">
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+        <item>Sobota</item>
+        <item>Niedziela</item>
+    </string-array>
+
+    <string-array name="sort_days">
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+        <item>Sobota</item>
+        <item>Niedziela</item>
+        <item>Wszyscy</item>
+    </string-array>
+
+    <string-array name="drawer_list">
+        <item>My Students</item>
+        <item>Klasy</item>
+        <item>Miejsca</item>
+        <item>Statystyki</item>
+        <item>Informacje</item>
+    </string-array>
+
+
+    <string name="pref_5_lessons">Pokaż 5 lekcji</string>
+    <string name="pref_5_lessons_summary">Pokaż tylko 5 ostatnich lekcji na ucznia</string>
+    <string name="about_author">Autor <b>Roman Gabryś</b></string>
+    <string name="about_contact">Napisz do mnie:</string>
+    <string name="about_version">Wersja %s</string>
+    <string name="all">Wszyscy</string>
+    <string name="close_drawer">Zamknij</string>
+    <string name="default_class_name">Klasa</string>
+    <string name="default_place_name">Miejsce</string>
+    <string name="lessons">Lekcje</string>
+    <string name="money">Pieniądze</string>
+    <string name="open_drawer">Otwórz</string>
+    <string name="other">Inne</string>
+    <string name="show_lessons">Pokaż lekcje</string>
+    <string name="stats_unpaid_text">Niezapłacone</string>
+    <string name="time">Czas</string>
+    <string name="unpaid_lessons">Niezapłacone</string>
+
+
+</resources>

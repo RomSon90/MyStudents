@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">My Students</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <string name="name_student">Name </string>
+    <string name="place_student">Place </string>
+    <string name="day_student">Days </string>
+    <string name="class_student">Class </string>
+    <string name="student">Student </string>
+
+    <string name="name_student_hint">Student\'s name</string>
+    <string name="place_student_hint">Where you teach</string>
+    <string name="class_student_hint">Student\'s class</string>
+    <string name="select_day">Select days</string>
+
+    <string name="add_student">Add new student</string>
+
+    <string name="name_required">Name required</string>
+    <string name="place_required">Place required</string>
+
+    <string name="hint1">To add new student</string>
+    <string name="hint1a">press app bar icon</string>
+    <string name="hint2">Press + to add lesson</string>
+    <string name="hint3">Long touch to edit</string>
+
+    <string name="message_student_deleted">Student deleted</string>
+    <string name="message_student_added">Student added</string>
+    <string name="message_student_unavailable">Student unavailable </string>
+    <string name="message_student_updated">Student updated</string>
+
+    <string name="date_lesson">Date</string>
+    <string name="date_lesson_button">Date and time</string>
+    <string name="topic_lesson">Topic</string>
+    <string name="homework_lesson">Homework</string>
+    <string name="homework_done_lesson">Homework done ?</string>
+    <string name="duration">Duration</string>
+    <string name="hour">Hours</string>
+    <string name="minute">Minutes</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="price_lesson">Price</string>
+    <string name="price" translatable="false">%1$d</string>
+    <string name="paid_lesson">Paid</string>
+    <string name="lesson_missing_error">No such lesson</string>
+    <string name="homework_lesson_hint">Add homework</string>
+    <string name="topic_lesson_hint">Add topic</string>
+
+    <string name="message_lesson_added">Lesson added</string>
+    <string name="message_lesson_updated">Lesson updated</string>
+    <string name="message_lesson_deleted">Lesson deleted</string>
+
+    <string name="new_lesson">New lesson</string>
+    <string name="lesson_details">Lesson details</string>
+    <string name="new_student"> New student</string>
+    <string name="student_details">Student details</string>
+
+    <string name="pref_5_lessons">Show 5 lessons</string>
+    <string name="pref_5_lessons_summary">Show only 5 last lessons per student </string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="about_author">Made by <b>Roman Gabrys</b></string>
+    <string name="about_version">Version %s</string>
+    <string name="about_contact">Feel free to contact me:</string>
+    <string name="about_email" translatable="false"><a href="mailto:roman.gab77@gmail.com?subject=My%20Students">roman.gab77@gmail.com</a></string>
+    <string name="all">All</string>
+    <string name="time">Time</string>
+    <string name="money">Money</string>
+    <string name="other">Other</string>
+    <string name="lessons">Lessons</string>
+    <string name="show_lessons">Show lessons</string>
+    <string name="stats_unpaid_text">Unpaid lessons</string>
+    <string name="unpaid_lessons">Unpaid lessons</string>
+    <string name="default_place_name">Place</string>
+    <string name="all_paid">All paid</string>
+
+    <string name="default_class_name">Class</string>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="sort_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="drawer_list">
+        <item>My Students</item>
+        <item>Classes</item>
+        <item>Places</item>
+        <item>Statistics</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+</resources>

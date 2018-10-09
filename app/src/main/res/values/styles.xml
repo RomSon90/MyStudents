@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
+        <item name="android:actionBarStyle">@style/HoloActionBarStyle</item>
+        <item name="android:spinnerItemStyle">@style/MySpinnerStyle</item>
+    </style>
+
+    <style name="HoloActionBarStyle" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:titleTextStyle">@style/HoloTitleText</item>
+    </style>
+
+    <style name="HoloTitleText" parent="android:TextAppearance.Holo">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MySpinnerStyle" parent="android:Widget.Holo.Light.TextView.SpinnerItem">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

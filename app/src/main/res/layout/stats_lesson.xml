@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/expandable_lesson_border"
+        android:layout_marginStart="@dimen/expandable_outer_margin_card"
+        android:layout_marginEnd="@dimen/expandable_outer_margin_card"
+        android:layout_marginBottom="@dimen/expandable_vertical_margin_card"
+        android:id="@+id/expandable_lesson_card">
+        <RelativeLayout
+            android:layout_marginStart="@dimen/expandable_outer_margin"
+            android:layout_marginEnd="@dimen/expandable_outer_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/expandable_vertical_margin"
+            android:layout_marginBottom="@dimen/expandable_vertical_margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stats_lesson_name"
+                android:textSize="@dimen/medium_text_size"
+                android:gravity="center"
+                android:layout_alignParentStart="true"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stats_lesson_name">
+
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_date"
+                    android:id="@+id/expandable_lesson_date_image"
+                    android:tint="@color/lesson_image_color"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/expandable_horizontal_spacing"/>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/expandable_lesson_date"
+                    android:textSize="@dimen/medium_text_size"
+                    android:textColor="@color/black"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stats_lesson_name"
+                android:layout_alignParentEnd="true" >
+
+                <ImageView
+                    android:padding="4dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_money"
+                    android:id="@+id/stats_money_image"
+                    android:tint="@color/lesson_image_color"
+                    android:layout_marginEnd="@dimen/expandable_horizontal_spacing"/>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/stats_money_text"
+                    android:textSize="@dimen/medium_text_size"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

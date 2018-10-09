@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/save_student"
+        android:orderInCategory="1"
+        android:title="@string/add_student"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_save"/>
+
+    <item
+        android:id="@+id/delete_student"
+        android:orderInCategory="2"
+        android:title="@string/delete"
+        android:showAsAction="never" />
+</menu>

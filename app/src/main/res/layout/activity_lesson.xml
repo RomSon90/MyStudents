@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.englishalternative.mystudents.LessonActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:textStyle="normal"
+            android:textSize="@dimen/small_text_size"
+            android:layout_marginStart="@dimen/list_hint_margin"
+            android:text="@string/student"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/student_name"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/list_main_element_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/large_text_size"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lesson_date_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_spacing_vertical"
+            android:layout_marginTop="@dimen/list_spacing_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:textStyle="normal"
+                android:textSize="@dimen/small_text_size"
+                android:layout_marginStart="@dimen/list_hint_margin"
+                android:text="@string/date_lesson"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/list_main_element_margin"
+                android:textStyle="bold"
+                android:id="@+id/date_lesson"
+                android:onClick="setLessonDate"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_spacing_vertical"
+            android:layout_marginTop="@dimen/list_spacing_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/duration"
+                android:gravity="top"
+                android:textStyle="normal"
+                android:textSize="@dimen/small_text_size"
+                android:layout_marginStart="@dimen/list_hint_margin" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/lesson_duration"
+                android:gravity="top"
+                android:layout_marginStart="@dimen/list_main_element_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_text_size"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+        android:layout_marginTop="@dimen/list_spacing_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/price_lesson"
+                android:gravity="top"
+                android:textStyle="normal"
+                android:textSize="@dimen/small_text_size"
+                android:layout_marginStart="@dimen/list_hint_margin" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/price_lesson_new"
+                android:minWidth="60dp"
+                android:layout_marginStart="@dimen/list_main_element_margin"
+                android:layout_marginEnd="40dp"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_text_size"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/paid_checkbox"
+            android:text="@string/paid_lesson"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+        android:layout_marginTop="@dimen/list_spacing_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/topic_lesson"
+            android:gravity="top"
+            android:textStyle="normal"
+            android:textSize="@dimen/small_text_size"
+            android:layout_marginStart="@dimen/list_hint_margin" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="fill_vertical"
+            android:id="@+id/topic_lesson_new"
+            android:textSize="@dimen/large_text_size"
+            android:layout_marginStart="@dimen/list_main_element_margin"
+            android:textColor="@color/black"
+            android:hint="@string/topic_lesson_hint"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_spacing_vertical"
+        android:layout_marginBottom="@dimen/list_spacing_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/homework_lesson"
+            android:gravity="top"
+            android:textStyle="normal"
+            android:textSize="@dimen/small_text_size"
+            android:layout_marginStart="@dimen/list_hint_margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_main_element_margin"
+            android:textStyle="bold"
+            android:gravity="fill_vertical"
+            android:id="@+id/homework_lesson_new"
+            android:textColor="@color/black"
+            android:textSize="@dimen/large_text_size"
+            android:hint="@string/homework_lesson_hint"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

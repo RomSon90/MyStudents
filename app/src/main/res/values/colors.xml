@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8e24aa</color>
+    <color name="colorPrimaryDark">#5c007a</color>
+    <color name="colorPrimaryLight">#c158dc</color>
+    <color name="colorAccent">#ea2dd1</color>
+    <color name="colorMenu">#910083</color>
+    <color name="green">#3b9b1e</color>
+    <color name="light_green">#e9ffec</color>
+    <color name="lesson_default_background">#e4e4e4</color>
+    <color name="light_gray">#c2c2c2</color>
+    <color name="highlight_gray">#e6e6e6</color>
+    <color name="colorpressed">#e49cf2</color>
+    <color name="colorActivated">#fff</color>
+    <color name="spinnerBackgroundColor">#d66af2</color>
+    <color name="black">#000</color>
+    <color name="dark_grey">#1a1a1a</color>
+    <color name="drawerActivated">#bcbcbc</color>
+    <color name="white">#fff</color>
+    <color name="holo_light_primary">@color/colorPrimary</color>
+    <color name="lesson_image_color">@color/colorPrimary</color>
+    <color name="red_warning">#ff0000</color>
+    <color name="dark_green">#136600</color>
+    <color name="medium_gray">#818181</color>
+    <color name="yellow">#a49f14</color>
+    <color name="blue">#0418f9</color>
+</resources>

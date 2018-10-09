@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.englishalternative.mystudents.fragments.StudentsFragment">
+
+    <ExpandableListView
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:id="@+id/expandable_list_view"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical"
+        android:groupIndicator="@android:color/transparent">
+    </ExpandableListView>
+
+</FrameLayout>
